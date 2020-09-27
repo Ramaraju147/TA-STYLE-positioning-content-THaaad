@@ -1,0 +1,72 @@
+<!-- ### Exercise 2
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+3. Inside the main content crate three columns. In each column take one image and a paragraph below the image.
+4. Using float is necessary. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning Content</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Instacart</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <main class="clearfix">
+      <section>
+        <img
+          src="https://www.artmarketstudies.org/wp-content/uploads/2016/10/blogging.jpg"
+          alt="Blog Post"
+        />
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, ipsa
+          repudiandae vitae vero eos fugiat ad facilis ex reprehenderit
+          perspiciatis in illo tempora velit. Minus iste nisi est. Quod, id!
+        </p>
+      </section>
+      <section>
+        <img
+          src="https://www.artmarketstudies.org/wp-content/uploads/2016/10/blogging.jpg"
+          alt="Blog Post"
+        />
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, ipsa
+          repudiandae vitae vero eos fugiat ad facilis ex reprehenderit
+          perspiciatis in illo tempora velit. Minus iste nisi est. Quod, id!
+        </p>
+      </section>
+      <section>
+        <div class="img">
+          <img
+            src="https://www.artmarketstudies.org/wp-content/uploads/2016/10/blogging.jpg"
+            alt="Blog Post"
+          />
+        </div>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, ipsa
+          repudiandae vitae vero eos fugiat ad facilis ex reprehenderit
+          perspiciatis in illo tempora velit. Minus iste nisi est. Quod, id!
+        </p>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Facebook</a>
+      </nav>
+    </footer>
+  </body>
+</html>
