@@ -1,0 +1,55 @@
+body {
+  font-family: "Barlow", sans-serif;
+  background-color: #f7f3f3;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.col {
+  padding: 80px 20px;
+}
+
+.col-1 {
+  width: 26%;
+  line-height: 0.5;
+  font-size: 20px;
+  float: left;
+}
+
+.col-2 {
+  width: 43%;
+  float: left;
+}
+
+.col-2 img {
+  height: 300px;
+  width: 300px;
+}
+
+.col-3 {
+  width: 23%;
+  float: left;
+  font-size: 20px;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.slog {
+  padding: 0px 30px;
+}
