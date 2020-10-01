@@ -1,0 +1,190 @@
+html,
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Rajdhani", sans-serif;
+}
+.header {
+  background-image: url("https://wallpaperaccess.com/full/84303.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  opacity: 0.9;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.container-2 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.container-3 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+
+.container-4 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.container-5 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.brand {
+  float: left;
+}
+
+.brand a {
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.nav {
+  float: right;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.herotext {
+  text-align: center;
+  padding: 60px 0;
+  padding-bottom: 150px;
+}
+
+.herotext h1 {
+  font-size: 50px;
+}
+
+.col {
+  padding: 50px 0;
+  width: 27%;
+  margin: 1.5%;
+  float: left;
+  color: #9a9a9a;
+}
+
+.col-1 {
+  margin: 80px 0;
+  float: left;
+  width: 0.5%;
+  padding: 0 10px;
+  margin-right: 20px;
+}
+
+.col h4 {
+  color: #1f233a;
+}
+
+.button {
+  background-color: #1f233a;
+  color: white;
+  width: 70px;
+  height: 30px;
+}
+.border-left {
+  border-right: 0.5px solid #9a9a9a;
+  height: 200px;
+}
+
+.article {
+  background-color: #1f233a;
+  width: 100%;
+}
+
+.col-2 {
+  float: left;
+  width: 21%;
+  border: 1px solid white;
+  margin: 0 16px;
+  padding: 30px 0;
+}
+
+.col-2 img {
+  border-radius: 50%;
+}
+
+.col-2 h4 {
+  font-size: 24px;
+  padding-top: 15px;
+  margin: 0;
+}
+
+.col-2 p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.magna {
+  padding: 40px;
+}
+
+.article-heading {
+  padding-top: 30px;
+  font-size: 44px;
+}
+
+.col-3 {
+  width: 40%;
+  float: left;
+  padding: 30px 50px;
+  text-align: left;
+}
+
+.col-3 p {
+  color: #9a9a9a;
+}
+
+.col-3 img {
+  width: 517px;
+  height: 176px;
+}
+
+hr {
+  border-top: 0.8 solid #9a9a9a;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.copywrite {
+  float: left;
+}
+
+.fnav {
+  float: right;
+  padding: 20px 0;
+}
+
+.fnav i {
+  padding: 0 5px;
+}
