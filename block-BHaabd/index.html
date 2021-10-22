@@ -5,67 +5,43 @@
 
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper. -->
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cat Blog</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Extracts from "Our Cats, by Harrison Weir"</h1>
-    </header>
-    <main class="container">
-      <div class="clearfix">
-        <section class="col-1 col">
-          <p>Introductory</p>
-          <p>The First Cat Show</p>
-          <p>Habits</p>
-          <p>Trained Cats</p>
-          <p>Usefulness of Cats</p>
-        </section>
-        <section class="col-2">
-          <h2>Usefulness of cats</h2>
-          <img
-            src="https://i.pinimg.com/originals/8d/05/64/8d0564cddfb9ffb48878bac1cecce346.jpg"
-            alt="Cat Image"
-          />
-          <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English.
-          </p>
-          <p class="slog">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration.
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea optio
-            dolor saepe est eligendi culpa quis quas, mollitia exercitationem
-            quasi eum. Est excepturi repellat quis cum rerum placeat numquam ut.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto nemo
-            suscipit, quidem a odio soluta dolores beatae nisi quas obcaecati
-            iste quis omnis recusandae dignissimos corporis. Laboriosam qui
-            molestias ab.
-          </p>
-        </section>
-        <section class="col-3 col">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            tenetur nulla, perspiciatis cum sint incidunt, numquam alias ullam
-            explicabo sapiente nesciunt ducimus ab quidem non hic dolores.
-            Explicabo, dolor nobis?
-          </p>
-        </section>
-      </div>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+    <h1>Extracts from "Our Cats, by Harrison Weir"</h1>
+  </div>
+  </header>
+  <main>
+    <div class="container clearfix main">
+    <section class="col col-1-1">
+      <p>Introductory</p>
+      <p>The First Cat Show</p>
+      <p>Habits</p>
+      <p>Trained Cats</p>
+      <p>Usefulness of Cats</p>
+    </section>
+    <section class="col col-1-2">
+      <h2>Usefulness of cats</h2>
+      <img src="https://media.istockphoto.com/illustrations/cat-illustration-id152406994?k=20&m=152406994&s=612x612&w=0&h=2tfrDisHvjhPFAkBEs4xBaZEyH8ivuLolGMcXdh4IXE=" alt="cat image">
+      <p>In et turpis aliquam orci hendrerit dictum eget sed nulla. Etiam porttitor lacus nulla, ac feugiat libero rhoncus mattis. Praesent sed massa et turpis elementum consequat. Pellentesque nec elit nisl. Proin aliquet turpis turpis. Aenean facilisis tortor dapibus dui faucibus, quis aliquam elit sollicitudin. Mauris posuere, ante a tincidunt finibus, est nibh gravida ipsum, sed pharetra ex ante eu libero. Pellentesque quis fringilla magna. Suspendisse consectetur, mauris non ultricies mollis, dui enim ultrices leo, non viverra tortor erat ac justo. Sed ac turpis imperdiet, pellentesque est eu, convallis magna. Praesent fringilla enim eget nisl facilisis tincidunt. Morbi nulla enim, vehicula ut elit sit amet, dignissim porta lacus. Morbi feugiat massa nibh, vel cursus lorem molestie eget.</p>
+      <p>Quisque eu mi arcu. Ut vitae augue sit amet urna finibus vulputate. Etiam consectetur ultrices mauris quis condimentum. Sed vitae arcu orci. Proin enim erat, efficitur venenatis nunc et, ultricies bibendum est. Aliquam vel lacus arcu. Integer lobortis ex at turpis iaculis, sit amet efficitur urna gravida. Sed luctus in risus eu vehicula. Nunc id leo nunc. Aliquam euismod lacinia ultrices. Nullam efficitur ex eu nibh pretium luctus. Vivamus iaculis accumsan posuere. Donec eu cursus purus, id malesuada magna. Donec ac dictum turpis.</p>
+      <p>Duis ullamcorper velit eu turpis commodo finibus. Sed vitae enim vehicula nulla consequat ultricies vitae a sapien. Nulla tristique vestibulum odio, sit amet pellentesque urna lobortis at. Etiam vulputate tortor et enim ullamcorper, eu ultricies mauris congue. Integer aliquam semper arcu, sed auctor dui malesuada nec. Praesent vulputate ex non tortor sagittis, fringilla mollis magna dignissim. Ut rhoncus purus massa, vel interdum nibh viverra quis. In cursus sagittis lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris purus mauris, tempor ultricies tortor eu, vulputate pulvinar lacus. Fusce tempor, quam eget lobortis vehicula, ipsum dui luctus mauris, in elementum turpis dui ut lectus. Nam pellentesque libero id dui dignissim, et blandit urna luctus. Aenean sodales molestie fringilla.</p>
+    </section>
+    <section class="col col-1-3">
+      <h6>
+        Nunc justo neque, ornare non egestas et, vestibulum at sem. Duis aliquam, neque at ultrices molestie, ante odio lacinia ex, at consequat ante nisi a leo. Fusce sodales lectus at quam consectetur, quis fringilla nisl facilisis. Donec id ornare felis, a lacinia nulla. Aliquam lacinia vel libero a vulputate. Vivamus vitae sem et turpis condimentum aliquam vitae finibus purus. Aliquam lacinia, ante ac dictum porta, nulla nulla hendrerit sapien, sed consectetur dui ligula quis sapien.
+      </h6>
+    </section>
+  </div>
+  </main>
+</body>
 </html>
